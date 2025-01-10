@@ -1,0 +1,50 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Beyaz arka plan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.about-container {
+    background: #00274d; /* Lacivert arka plan */
+    color: #ffcc00; /* Sarı yazı */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+}
+
+.about-container h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.about-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+.details {
+    background: #ffcc00; /* Sarı arka plan */
+    color: #00274d; /* Lacivert yazı */
+    padding: 20px;
+    width: 40%;
+    height: 70%;
+    overflow-y: auto;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.details dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.details dd {
+    margin-bottom: 10px;
+}

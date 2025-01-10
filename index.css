@@ -1,0 +1,113 @@
+.nav-menu{
+    min-width: 100%;
+    background-color: #05125ac4;
+    height: 70px;
+    width: 60px;
+}
+
+.menu {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+    
+    height: 70px; 
+
+    gap: 40px; 
+
+    
+}
+
+.menu .menu-item {
+    list-style-type: none;
+   
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.menu .menu-item:hover {
+    background-color: rgb(23, 79, 233);
+    
+}
+.menu .menu-item a{
+    text-decoration: none; 
+    color: rgb(255, 251, 30);
+  
+}
+ header h1{
+    text-align: center;
+    font-weight: 10px;
+    color: yellow;
+    background-color: rgba(0, 0, 255, 0.548);
+ }
+ 
+ .blinking-text{
+
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff0; /* Sarı renk */
+    text-shadow: 0 0 10px #ff0, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0;
+    animation: blink 1.5s infinite, glow 1.5s infinite;
+}
+
+/* Parlama animasyonu */
+@keyframes glow {
+    0%, 100% {
+        text-shadow: 0 0 10px #ff0, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0;
+    }
+    50% {
+        text-shadow: 0 0 5px rgb(16, 6, 107), 0 0 10px rgb(4, 24, 109), 0 0 20px rgb(12, 6, 100), 0 0 30px #ff0;
+    }
+}
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+  padding:10px;
+  background-color: #030236c0;
+  color:rgb(255, 239, 9);
+  text-align: center;
+ }
+ section p{
+background-color: #f1f1f1bb;
+padding: 30px;
+margin: 10px;
+ }
+section h1{
+  color: rgb(91, 238, 152);
+}
+.search-container { 
+  display: flex; justify-content: center; align-items: center; height: 5vh; 
+} 
+.search-box { display: flex; width: 200px;
+ } 
+.search-box input[type="text"] { 
+  width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px 0 0 4px; outline: none;
+ } 
+.search-box button {
+   padding: 10px; border: 1px solid #ccc; border-left: none; border-radius: 0 4px 4px 0; background-color: #e5ff00; color: rgb(0, 7, 100); cursor: pointer; ;
+  } 
+.search-box button:hover { 
+  background-color: #061283; color: #ffef0a;
+ }
+
+.video-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.video {
+    max-width: 80%;
+    border: 5px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
